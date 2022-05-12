@@ -76,6 +76,7 @@ main{
     background-color: black;
     width: 100vw;
     height: 100vh;
+    overflow: auto;
 }
 
 img{
@@ -83,7 +84,7 @@ img{
 }
 
 .container{
-    max-width: 2000px;
+    max-width: 1600px;
     margin: 0 auto;
 }
 
@@ -117,6 +118,9 @@ img{
 footer{
     background-color: #222222;
     width: 100vw;
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
 
 .container-footer{
